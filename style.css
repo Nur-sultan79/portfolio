@@ -76,3 +76,11 @@ body {
     width: 100%;
   }
 }
+@media (max-width: 520px) {
+  .portfolio-link {
+    height: 235px;
+  }
+  .portfolio-link img {
+    height: 235px;
+  }
+}
