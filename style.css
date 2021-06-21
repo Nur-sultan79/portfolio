@@ -59,8 +59,14 @@ body {
     margin: 0 auto;
     width: 90%;
   }
+  .portfolio-link img {
+  width: 100%;
+}
 }
 @media (max-width: 750px) {
+  .portfolio {
+  padding: 50px 0;
+}
   .portfolio-box {
     grid-gap: 20px;
   }
