@@ -57,15 +57,14 @@ body {
   }
   .portfolio-link {
     margin: 0 auto;
+    width: 90%;
   }
 }
-@media (max-width: 705px) {
-  .portfolio-link {
-    width: 415px;
-    height: 215px;
+@media (max-width: 750px) {
+  .portfolio-box {
+    grid-gap: 20px;
   }
-  .portfolio-link img {
-    width: 415px;
-    height: 215px;
+  .portfolio-link {
+    width: 100%;
   }
 }
